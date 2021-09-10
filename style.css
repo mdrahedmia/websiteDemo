@@ -1,0 +1,126 @@
+.container{
+  width: 1400px;
+  height: 100vh;
+  background-image: url("background1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.logo{
+  height: 100px;
+  width: 200px;
+  padding: 10px;
+  cursor: pointer;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.menu a{
+  padding: 0 10px;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+.search{
+  padding: 10px;
+  text-align: right;
+  border: 2px solid #339D12;
+  outline: none;
+  background: transparent;
+  border-radius: 30px;
+  padding-right: 30px;
+}
+.search::placeholder{
+  color: #fff;
+  text-transform: capitalize;
+}
+/*-----------main section start here ------*/ 
+.main-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+.left-col{
+  flex-basis: 45%;
+  padding-left: 60px;
+  margin-top: 50px;
+}
+.left-col h1{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+.left-col p{
+  color: #fff;
+  margin-top: 30px;
+  font-weight: 300;
+  opacity: 0.70;
+}
+.main-button{
+  margin-top: 50px;
+  padding: 15px 40px;
+  color: #000000;
+  font-weight: bold;
+  font-family: monospace;
+  background: #339D12;
+  border-radius: 30px;
+  display: block;
+  width: fit-content;
+  text-decoration: none;
+  outline: 0;
+  border: 0;
+}
+
+.socialicon{
+  margin-top: 50px;
+}
+.socialicon a{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-decoration: none;
+  margin: 5px;
+  padding: 10px;
+  background: #339D12;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialicon a i{
+  color: #fff;
+}
+/* ---------right col start here ------*/ 
+.right-col{
+  flex-basis: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  
+}
+.man{
+  width: 300px;
+  height: 500px;
+  
+}
+.man img{
+  height: 100%;
+  width: 100%;
+}
+.right-col-text h1{
+  color: #fff;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+}
+
+
